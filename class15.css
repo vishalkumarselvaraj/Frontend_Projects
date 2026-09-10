@@ -1,0 +1,39 @@
+main {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aquamarine;
+  font-weight: bold;
+}
+div.id {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+.id1 {
+  border: 3px solid black;
+  padding: 10px;
+  background-color: rgb(121, 121, 221);
+  border-radius: 7px;
+  width: 50px;
+}
+.id2 {
+  border: 3px solid black;
+  padding: 10px;
+  background-color: rgb(121, 121, 221);
+  border-radius: 7px;
+  width: 50px;
+}
+.id3 {
+  border: 3px solid black;
+  padding: 10px;
+  background-color: rgb(121, 121, 221);
+  border-radius: 7px;
+  width: 50px;
+}
+.id4 {
+  border: 3px solid black;
+  padding: 10px;
+  background-color: rgb(121, 121, 221);
+  border-radius: 7px;
+  width: 50px;
+}

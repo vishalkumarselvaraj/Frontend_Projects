@@ -1,0 +1,44 @@
+body {
+  background-color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  border: 10px double yellow;
+  padding: 50px;
+  background-color: aliceblue;
+}
+.box {
+  border: 5px solid black;
+  padding: 0px;
+  margin: 0px;
+  justify-content: center;
+  background-color: grey;
+}
+img {
+  padding-top: 100px;
+  padding-left: 120px;
+  width: 50%;
+  height: 50%;
+}
+h2 {
+  padding-left: 180px;
+}
+h3 {
+  padding-left: 250px;
+  color: green;
+}
+.id1 {
+  border-left: 0px;
+}
+.id2 {
+  border-left: 0px;
+  justify-content: center;
+}
+.watch {
+}
+.watch1 {
+  padding-right: 100px;
+}

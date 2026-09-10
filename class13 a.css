@@ -1,0 +1,72 @@
+main {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aquamarine;
+  padding-bottom: 300px;
+}
+* {
+  box-sizing: border-box;
+}
+.course {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 300px;
+  margin-top: 100px;
+}
+.id {
+  border: 3px solid white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: aliceblue;
+  border-radius: 15px 0px 15px 0px;
+  box-shadow: 4px 5px 0px gray;
+  transition: transform(0.5s);
+}
+.id1 {
+  border: 3px solid white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: aliceblue;
+  border-radius: 15px 0px 15px 0px;
+  box-shadow: 4px 5px 0px gray;
+  transition: transform(0.5s);
+}
+.id2 {
+  border: 3px solid white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: aliceblue;
+  border-radius: 15px 0px 15px 0px;
+  box-shadow: 4px 5px 0px gray;
+  transition: transform(0.5s);
+}
+.courses {
+  text-align: center;
+  padding-top: 50px;
+}
+.my {
+  border: 5px dotted black;
+  display: inline-block;
+  padding: 30px;
+}
+.id:hover {
+  background-color: aliceblue;
+  color: black;
+  transform: scale(1.1);
+}
+.id1:hover {
+  background-color: aliceblue;
+  color: black;
+  transform: scale(1.1);
+}
+.id2:hover {
+  background-color: aliceblue;
+  color: black;
+  transform: scale(1.1);
+}

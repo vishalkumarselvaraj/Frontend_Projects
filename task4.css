@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: blueviolet;
+  text-align: center;
+  font-style: oblique;
+}
+form {
+  color: aqua;
+  background-color: black;
+  padding: 20px;
+  margin: 25px;
+  border: 5px dotted white;
+  border-radius: 4px;
+  font-size: larger;
+}
+a:hover {
+  background-color: yellow;
+  font-size: 18px;
+}
+a:visited {
+  color: pink;
+}
+.link {
+  display: flex;
+  gap: 20px;
+}

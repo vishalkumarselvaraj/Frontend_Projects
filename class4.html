@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <center>
+      <h1>
+        <i><b>Student Information</b></i>
+      </h1>
+    </center>
+    <form>
+      <fieldset>
+        <legend>Personal Data</legend>
+        <lable>Name : </lable>
+        <input type="text" placeholder="Enter your name" />
+        <br>
+        </br>
+        <lable>Email Id : </lable>
+        <input type="email" placeholder="Enter the email" required/>
+        <br>
+      </br>
+      <label>Contact Number : </label>
+      <input type="tel" placeholder="Enter your number">
+      </fieldset>
+      <br>
+      </br>
+      <fieldset>
+        <legend>Course Details</legend>
+         <label>Course : </label>
+         <select>
+          <option value></option>
+          <option value>CSE</option>
+          <option value>IT</option>
+          <option value>ECE</option>
+          <option value>EEE</option>
+          <option value>MECH</option>
+         </select>
+         <br>
+      </br>
+      <label>Rate this course : </label>
+      <input type="radio" name="course" >Good
+      <input type="radio" name="course" >Modrate
+      <input type="radio" name="course" >Bad
+      <br>
+      </br>
+      <label>Already known about the course : </label>
+      <input type="checkbox" >Yes
+       <input type="checkbox" >No
+      </fieldset>
+       <br>
+      </br>
+      <fieldset>
+        <legend>Log in details</legend>
+        <label>Username : </label>
+        <input type="text" placeholder="Enter the username">
+          <br>
+      </br>
+      <label>Password : </label>
+      <input type="password" placeholder="Enter the password">
+      <br>
+      </br>
+      <label>Capcha : </label>
+      <input type="text">
+      <br>
+      </br>
+      <input type="text" value="CPV87D">
+      </fieldset>
+      <br>
+      </br>
+      <center>
+        <input type="reset">
+        <br></br>
+      <button>Submit</button>
+      </center>
+    </form>
+  </body>
+</html>

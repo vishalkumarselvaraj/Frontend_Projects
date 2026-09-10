@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+div.id {
+  border: 7px double black;
+  padding: 20px;
+  margin: 25px;
+  background-color: bisque;
+  text-align: left;
+  font-style: italic;
+  font-size: larger;
+  display: block;
+}
+div:hover {
+  font-size: 60px;
+}
+div#id1 {
+  border: 7px double black;
+  padding: 20px;
+  margin: 25px;
+  background-color: bisque;
+  text-align: center;
+  font-style: italic;
+  font-size: larger;
+}
+span {
+  display: block;
+}

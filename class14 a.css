@@ -1,0 +1,14 @@
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 200px;
+}
+li {
+  border: 3px solid rgb(0, 14, 23);
+  background-color: rgb(173, 123, 123);
+  border-radius: 7px;
+  padding: 10px;
+}

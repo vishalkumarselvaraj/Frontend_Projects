@@ -1,0 +1,76 @@
+body::before {
+  content: "";
+  position: fixed;
+  background-image: url("96.jpg");
+  filter: blur(10px);
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.user {
+  height: 300px;
+  width: 300px;
+  margin-top: 150px;
+  max-width: 100%;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.id1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 80px;
+  border-radius: 10px;
+  border: 0px;
+  box-shadow: 0px 3px 0px red;
+  max-width: 100%;
+}
+button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border: 3px solid black;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+.all {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+.right {
+  display: flex;
+  gap: 20px;
+}
+img {
+  height: 30px;
+  width: 30px;
+  gap: 20px;
+}
+.rarr {
+  height: 40px;
+  width: 40px;
+}
+.merge {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  max-width: 100%;
+}
+.arrow {
+  position: absolute;
+  right: 5px;
+  top: 10%;
+}

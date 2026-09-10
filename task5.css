@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blueviolet;
+}
+h1 {
+  color: black;
+  text-align: center;
+  font-size: large;
+}
+ul {
+  color: white;
+  font-size: medium;
+  background-color: blue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 25px;
+  border: 4px double white;
+}
+ol {
+  color: white;
+  font-size: medium;
+  background-color: blue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 25px;
+  border: 4px double white;
+}
+ol:hover {
+  background-color: aquamarine;
+  font-size: 20px;
+}
+ul:hover {
+  background-color: aquamarine;
+  font-size: 20px;
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in</title>
+    <link rel="stylesheet" href="class22a.css" />
+  </head>
+  <body>
+    <script src="class22a.js"></script>
+    <form>
+      <fieldset>
+        <div class="first">
+          <label>Username : </label>
+          <input type="text" placeholder="Enter the username" id="name1" />
+          <span id="error_message"></span>
+        </div>
+        <br />
+        <div class="second">
+          <label>Password : </label>
+          <input type="password" placeholder="Enter the password" id="pass1" />
+          <span id="error_password"></span>
+        </div>
+        <br />
+        <div class="third">
+          <label>Age : </label>
+          <input type="number" id="age1" placeholder="Enter the age" />
+          <span id="error_age"></span>
+        </div>
+        <div class="four">
+          <br />
+          <button id="click" type="button" onclick="user_1()">Submit</button>
+        </div>
+        <p id="success_message"></p>
+      </fieldset>
+    </form>
+  </body>
+</html>

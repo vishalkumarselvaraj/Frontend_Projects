@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aquamarine;
+  margin: 0px;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.all {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  border: 5px solid black;
+}
+.courses {
+  margin-bottom: 200px;
+}

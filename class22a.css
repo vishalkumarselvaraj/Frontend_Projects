@@ -1,0 +1,23 @@
+.first {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.second {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.third {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.four {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+input {
+  margin-left: 10px;
+}

@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #bf5b5b;
+  color: #333;
+}
+header {
+  color: black;
+  background-color: aquamarine;
+}
+span {
+  color: beige;
+  background-color: black;
+  font-style: italic;
+}
+strong {
+  color: blue;
+  font-size: medium;
+}
+em {
+  font-style: italic;
+}
+main {
+  background-color: aquamarine;
+}
+nav {
+  color: black;
+  background-color: #f5f5f5;
+}
+h2 {
+  color: black;
+  text-decoration: double;
+}
+ul {
+  color: blue;
+  text-align: center;
+}
+ol {
+  color: blue;
+  text-align: center;
+}
+h2.id {
+  padding: 40px;
+  border: 2px solid red;
+  margin: 20px;
+}
+.first {
+  color: blue;
+  background-color: rgb(175, 100, 120);
+}
+.second {
+  color: blue;
+  background-color: rgb(175, 100, 120);
+}
+.third {
+  color: blue;
+  background-color: rgb(175, 100, 120);
+}
+.check span {
+  display: block;
+  color: blue;
+}

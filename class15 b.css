@@ -1,0 +1,40 @@
+@media (min-width: 600px) {
+  main {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    font-weight: bold;
+    padding: 183px;
+  }
+}
+* {
+  background-image: url(img.jpg);
+}
+.all {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  width: 300px;
+  height: 100px;
+}
+.id1 {
+  border: 3px solid black;
+  border-radius: 7px;
+  background-color: rgb(101, 101, 199);
+  color: aliceblue;
+  grid-column: 1/4;
+  grid-row: 1/3;
+  height: 150px;
+  width: 250px;
+  text-align: center;
+}
+.id2 {
+  border: 3px solid black;
+  border-radius: 7px;
+  background-color: rgb(10, 103, 103);
+  color: aliceblue;
+  grid-column: 2/5;
+  grid-row: 2/4;
+  text-align: center;
+  width: 250px;
+  height: 100px;
+}
